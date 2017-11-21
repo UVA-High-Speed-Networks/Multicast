@@ -1,0 +1,45 @@
+
+Subject:
+Fwd: multicast test programs
+From:
+Shawn Chen <sc7cq@virginia.edu>
+Date:
+1/30/2016 2:26 PM
+To:
+Malathi Veeraraghavan <mv5g@virginia.edu>
+
+
+
+
+-------- Forwarded Message --------
+Subject: 	multicast test programs
+Date: 	Mon, 6 Apr 2015 15:15:46 -0600
+From: 	Steve Emmerson <emmerson@ucar.edu>
+To: 	Shawn Chen <sc7cq@virginia.edu>
+
+
+You should be able to tell from the code how to use them.
+
+They're built like this:
+
+    c99 -o send_test send_test.c
+
+    c99 -o recv_test recv_test.c
+
+
+And run like this:
+
+    ./send_test [-i iface_IP_addr] [-t ttl]
+
+    ./recv_test [-i iface_IP_addr]
+
+
+Regards,
+Steve Emmerson
+
+
+
+Attachments:
+recv_test.c	4.5 KB
+send_recv_test.h	585 bytes
+send_test.c	3.5 KB
